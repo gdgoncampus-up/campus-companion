@@ -1,18 +1,15 @@
 import { Outlet } from "react-router-dom";
-import Sidebar from "./Sidebar";
-import TopBar from "./TopBar";
-
+import Header from "./Header";
+import Footer from "./Footer";
 
 export default function Layout() {
     return (
-        <div className="flex h-screen bg-gray-50">
-            <Sidebar />
-            <div className="flex flex-col flex-1">
-                <TopBar />
-                <main className="p-6 overflow-y-auto">
-                    <Outlet />
-                </main>
-            </div>
+        <div className="min-h-screen bg-gray-950 text-white flex flex-col">
+            <Header variant="dark" />
+            <main className="flex-1 pt-16">
+                <Outlet />
+            </main>
+            <Footer variant="dark" />
         </div>
     );
 }

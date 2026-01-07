@@ -36,17 +36,17 @@ Existing GDG Website  ──▶  Campus Companion Platform
 ### High-Level Layout
 
 ```
-┌──────────────────────────────────────────────┐
-│  Top Bar: Logo | Events | Groups | AI | Profile│
-├──────────────────────────────────────────────┤
-│ Sidebar        │                              │
-│ - Dashboard    │   Main Content Area          │
-│ - Events       │   (Cards, Tables, Chats)    │
-│ - Study Groups │                              │
-│ - Resources    │                              │
-│ - Gemini Tools │                              │
-│ - Career       │                              │
-└──────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────┐
+│  Top Bar: Logo | Events | Groups | AI | Profile  │
+├──────────────────────────────────────────────────┤
+│ Sidebar        │                                 │
+│ - Dashboard    │        Main Content Area        │
+│ - Events       │   (Cards, Tables, Chats, etc)   │
+│ - Study Groups │                                 │
+│ - Resources    │                                 │
+│ - Gemini Tools │                                 │
+│ - Career       │                                 │
+└──────────────────────────────────────────────────┘
 ```
 
 ---

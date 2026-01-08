@@ -21,11 +21,11 @@ const navItems = [
 
 export default function Sidebar() {
     return (
-        <aside className="w-64 bg-gray-900 border-r border-gray-800 h-screen sticky top-0">
+        <aside className="w-73 bg-gray-900 border-r border-gray-800 h-screen sticky top-0">
             <div className="p-6 border-b border-gray-800">
                 <h1 className="font-bold text-xl font-mono">
                     <span className="text-blue-500">&lt;</span>
-                    <span className="text-white">GDG Campus</span>
+                    <span className="text-white">Campus Companion</span>
                     <span className="text-red-500"> /&gt;</span>
                 </h1>
             </div>

@@ -1,4 +1,5 @@
 import { Sparkles, FileText, Briefcase, Code, MessageSquare } from "lucide-react";
+import type {SVGProps, ComponentType} from "react";
 
 export default function AiTools() {
     type ToolColor = keyof typeof colorClasses;
@@ -6,7 +7,7 @@ export default function AiTools() {
         id: number;
         title: string;
         description: string;
-        icon: any;
+        icon: ComponentType<SVGProps<SVGSVGElement>>;
         color: ToolColor;
         status: string;
     }

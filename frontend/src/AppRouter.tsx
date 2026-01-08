@@ -1,25 +1,25 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 
 // Layouts
-import PublicLayout from "./layout/PublicLayout.tsx"
-import DashboardLayout from "./layout/DashboardLayout.tsx"
-import AdminLayout from "./layout/AdminLayout.tsx";
+import PublicLayout from "./layouts/PublicLayout.tsx"
+import DashboardLayout from "./layouts/DashboardLayout.tsx"
+import AdminLayout from "./layouts/AdminLayout.tsx";
 
 // Public Pages (Marketing)
-import Home from "../pages/public/Home.tsx"
-import About from "../pages/public/About.tsx"
-import Events from "../pages/public/Events.tsx"
-import StudyGroups from "../pages/public/StudyGroups.tsx"
-import AiTools from "../pages/public/AiTools.tsx"
-import Login from "../pages/public/Login.tsx"
+import Home from "./pages/public/Home.tsx"
+import About from "./pages/public/About.tsx"
+import Events from "./pages/public/Events.tsx"
+import StudyGroups from "./pages/public/StudyGroups.tsx"
+import AiTools from "./pages/public/AiTools.tsx"
+import Login from "./pages/public/Login.tsx"
 
 // Dashboard Pages (Logged-in users)
-import Dashboard from "../pages/Dashboard";
-import Settings from "../pages/Settings";
-import DashboardEvents from "../pages/DashboardEvents.tsx";
-import DashboardGroups from "../pages/DashboardGroups.tsx";
-import GeminiTools from "../pages/GeminiTools.tsx";
-import Profile from "../pages/Profile.tsx";
+import Dashboard from "./pages/dashboard/Dashboard.tsx";
+import Settings from "./pages/dashboard/Settings.tsx";
+import DashboardEvents from "./pages/dashboard/DashboardEvents.tsx";
+import DashboardGroups from "./pages/dashboard/DashboardGroups.tsx";
+import GeminiTools from "./pages/dashboard/GeminiTools.tsx";
+import Profile from "./pages/dashboard/Profile.tsx";
 
 // Admin Pages
 // import AdminDashboard from "../pages/admin/AdminDashboard.tsx";

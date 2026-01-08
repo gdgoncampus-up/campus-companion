@@ -1,4 +1,4 @@
-import { Users, Code, Calendar, Globe } from "lucide-react";
+import {Users, Code, Calendar, Globe} from "lucide-react";
 
 export default function About() {
     return (
@@ -40,7 +40,8 @@ export default function About() {
                         </p>
                     </div>
 
-                    <div className="rounded-2xl bg-gradient-to-br from-[#4285F4]/10 via-[#EA4335]/10 to-[#FBBC05]/10 p-8">
+                    <div
+                        className="rounded-2xl bg-gradient-to-br from-[#4285F4]/10 via-[#EA4335]/10 to-[#FBBC05]/10 p-8">
                         <ul className="space-y-4 text-[#202124]">
                             <li>• Hands-on workshops and talks</li>
                             <li>• Peer-to-peer learning</li>
@@ -107,13 +108,15 @@ export default function About() {
     );
 }
 
+import type {SVGProps, ComponentType} from "react";
+
 function Card({
                   icon: Icon,
                   title,
                   text,
                   color,
               }: {
-    icon: any;
+    icon: ComponentType<SVGProps<SVGSVGElement>>;
     title: string;
     text: string;
     color: string;
@@ -122,9 +125,9 @@ function Card({
         <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition p-6 text-center">
             <div
                 className="w-14 h-14 mx-auto mb-4 rounded-xl flex items-center justify-center"
-                style={{ backgroundColor: `${color}15` }}
+                style={{backgroundColor: `${color}15`}}
             >
-                <Icon className="w-7 h-7" style={{ color }} />
+                <Icon className="w-7 h-7" style={{color}}/>
             </div>
             <h3 className="font-semibold text-[#202124] mb-2">{title}</h3>
             <p className="text-sm text-[#5F6368]">{text}</p>

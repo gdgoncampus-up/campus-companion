@@ -1,7 +1,7 @@
 import { Outlet, NavLink } from "react-router-dom";
 import { useState } from "react";
 import {
-    Calendar, Users, Settings, BarChart3,
+    Calendar, Settings, BarChart3,
     LogOut, Menu, X, Sparkles, BookOpen
 } from "lucide-react";
 

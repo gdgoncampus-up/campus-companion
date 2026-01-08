@@ -1,6 +1,6 @@
 import {Outlet, useLocation} from "react-router-dom";
-import Sidebar from "../../components/layout/Sidebar.tsx";
-import TopBar from "../../components/layout/TopBar.tsx";
+import Sidebar from "../components/layout/Sidebar.tsx";
+import TopBar from "../components/layout/TopBar.tsx";
 
 const routeTitles: Record<string, string> = {
     "/app": "Dashboard",
